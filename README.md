@@ -31,7 +31,7 @@ hotel-management/ │-- src/             # Source code │-- lib/             # 
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 git clone https://github.com/dilukshann7/hotel-management.git
 
