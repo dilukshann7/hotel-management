@@ -66,9 +66,6 @@ Launch the application from NetBeans.
 
 
 
----
-
-📸 Screenshots 
 
 
 
