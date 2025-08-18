@@ -1,0 +1,111 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "21.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp jPanel1:::::x, comp jPanel2:::::x}"
+			"$verticalGroup": "par l {seq l {comp jPanel1:::p::p, space :::p, comp jPanel2:::::x, space :::p}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:24:p, comp jLabel1:::p::p, space ::347:x}}"
+				"$verticalGroup": "par l {seq l {space :p:12:p, comp jLabel1:::p::p, space ::14:x}}"
+			} ) {
+				name: "jPanel1"
+				"background": new java.awt.Color( 0, 150, 199, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel1"
+					"font": new java.awt.Font( "Poppins ExtraBold", 1, 48 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"text": "Customer Check-In"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:285:p, par l {seq {par t {seq t {comp address_label:::p:128:p, space s:::p, comp address_text:::p:242:p}, seq t {comp nic_label:::p:128:p, space s:::p, comp nic_text:::p:242:p}}, space :0:0:x}, seq {par l {par t:l::p {seq l {comp name_label:::p:134:p, space :::p, comp name_text:::p:242:p}, seq l {comp gender_label:::p:128:p, space s:::p, comp gender_list:::::x}, seq l {comp checkin_label:::p:128:p, space s:::p, comp checkin_text:::p:242:p}, seq l {comp email_label:::p:128:p, space s:::p, comp email_text:::p:242:p}, seq l {comp age_label:::p:128:p, space s:::p, comp age_text:::p:242:p}}, seq l {comp room_label:::p:128:p, space s:::p, comp room_text:::p:242:p}}, space ::213:x}}}, seq l {space :p:370:p, comp addcustomer_btn:::p:186:p, space :0:330:x}}"
+				"$verticalGroup": "par l {seq l {space :p:72:p, par l:::p {comp name_label::::33:x, comp name_text:::::x}, space u:::p, par b {comp age_text::b:p:33:p, comp age_label::b:p:33:p}, space u:::p, par b {comp email_text::b:p:33:p, comp email_label::b:p:33:p}, space u:::p, par b {comp gender_list::b:p:33:p, comp gender_label::b::33:x}, space u:::p, par b {comp nic_text::b:p:33:p, comp nic_label::b::33:x}, space u:::p, par b {comp address_text::b:p:33:p, comp address_label::b::33:x}, space :p:12:p, par b {comp checkin_text::b:p:33:p, comp checkin_label::b::33:x}, space u:::p, par b {comp room_text::b:p:33:p, comp room_label::b::33:x}, space :p:27:p, comp addcustomer_btn:::p:43:p, space :p:77:p}}"
+			} ) {
+				name: "jPanel2"
+				"maximumSize": new java.awt.Dimension( 903, 576 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "addcustomer_btn"
+					"font": new java.awt.Font( "Poppins", 1, 18 )
+					"text": "Add Customer"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "name_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Name"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "nic_text"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "nic_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "NIC Number"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "email_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Email"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "email_text"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "age_text"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "age_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Age"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "name_text"
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "gender_list"
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "Male"
+						addElement( "Male" )
+						addElement( "Female" )
+						addElement( "Non-Binary" )
+					}
+					auxiliary() {
+						"JavaCodeGenerator.typeParameters": "String"
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "gender_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Gender"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "address_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Address"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "address_text"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "checkin_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Check In Date"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "checkin_text"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "room_label"
+					"font": new java.awt.Font( "Poppins", 1, 14 )
+					"text": "Room Number"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "room_text"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) )
+	}
+}
