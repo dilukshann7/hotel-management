@@ -1,7 +1,8 @@
-# 🏨 Hotel Management System
+🏨 Hotel Management System
 
 A **Java-based Hotel Management System** designed to streamline hotel operations, including room management, guest registration, billing, and reporting.  
 This project was built using **NetBeans IDE**, applying **Object-Oriented Programming (OOP)** principles, database connectivity, and a simple graphical user interface.
+
 
 ---
 
@@ -66,6 +67,16 @@ Launch the application from NetBeans.
 
 
 
+## Screenshots of the program 
+
+<img width="1509" height="946" alt="Screenshot 2025-08-14 000551" src="https://github.com/user-attachments/assets/139748e1-ed57-409f-88b6-383e6d43df26" />
+<img width="1509" height="946" alt="Screenshot 2025-08-14 000556" src="https://github.com/user-attachments/assets/f9273cbc-2bfc-42a3-add6-68083bccbd02" />
+<img width="1509" height="946" alt="Screenshot 2025-08-14 000607" src="https://github.com/user-attachments/assets/9bcc146e-f375-4c39-9933-99dd8e8dea0b" />
+<img width="1509" height="946" alt="Screenshot 2025-08-14 000725" src="https://github.com/user-attachments/assets/9184c1ca-a591-49a9-98c3-f1ec782129d5" />
+<img width="1166" height="761" alt="Screenshot 2025-08-14 000543" src="https://github.com/user-attachments/assets/efaf77e3-178d-4478-8ed6-08daceb27691" />
+
+<img width="1509" height="946" alt="Screenshot 2025-08-14 000736" src="https://github.com/user-attachments/assets/f68e4d8a-c93e-4441-bd56-002c3252c023" />
+<img width="1124" height="903" alt="Screenshot 2025-08-14 000739" src="https://github.com/user-attachments/assets/1b5eb802-d6b9-4478-acd9-7162891400ad" />
 
 
 
