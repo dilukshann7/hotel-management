@@ -1,4 +1,4 @@
-🏨 Hotel Management System
+# Hotel Management System
 
 A **Java-based Hotel Management System** designed to streamline hotel operations, including room management, guest registration, billing, and reporting.  
 This project was built using **NetBeans IDE**, applying **Object-Oriented Programming (OOP)** principles, database connectivity, and a simple graphical user interface.
